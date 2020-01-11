@@ -1,0 +1,910 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/components.min.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.min.css">
+
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+    <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.min.css">
+    <link rel="stylesheet"href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Menu</title>
+
+</head>
+
+<body>
+
+
+    <div id="inTop">
+        <div class="row">
+            <div class="col-md-2 inLogo">
+                <a href=""> <img src="img/logo.png" width="100%" height="" class="img-responsive" alt="" /></a>
+            </div>
+            <div class="col-md-10 inMenus">
+
+                <div class="topMenuright">
+                    <ul>
+                        <li><input type="text" placeholder="Type here to search " /> <button type="button"> <i
+                                    class="fa fa-search" aria-hidden="true"></i> </button></li>
+                        <li class="mt-2"><a href=""> <i class="fa fa-cog" aria-hidden="true"></i> </a></li>
+                        <li class="mt-2"><a href=""> <i class="fa fa-question-circle" aria-hidden="true"></i> </a></li>
+                        <li class="mt-2">
+                            <div class="dropdown show">
+
+                                <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    <i class="fa fa-user-circle" aria-hidden="true"></i> User
+                                </a>
+
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item" href="#"> <i class="material-icons"> perm_identity </i>
+                                        User Datalabs</a>
+                                    <a class="dropdown-item" href="#"> <i class="material-icons">
+                                            settings_input_component </i> Settings</a>
+                                    <a class="dropdown-item" href="#"> <i class="material-icons"> notifications_none
+                                        </i> Notifications</a>
+                                    <a class="dropdown-item" href="#"> <i class="material-icons"> keyboard_tab </i>
+                                        Logout</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="inMenusRightSide">
+                    <ul>
+                        <li><a href="#"> <img src="img/inMenusIcons/shipping-and-delivery.svg" width="" height=""
+                                    class="img-responsive" alt="" /> Global Trade Functions</a>
+                            <ul id="subMenus">
+                          
+                            </ul>
+                        </li>
+                        <li><a href="#"> <img src="img/inMenusIcons/legal-paper.svg" width="" height=""
+                                    class="img-responsive" alt="" /> Trade Compliances  </a>
+                                    <ul id="subMenus">
+                                        <li><a href=""> Planning Parameters</a></li>
+                                        <li><a href=""> Forecasting Parameters</a></li>
+                                        </ul>
+                        </li>
+                        <li><a href="#"> <img src="img/inMenusIcons/legal-paper.svg" width="" height=""
+                                    class="img-responsive" alt="" />Trade Logistics </a>
+                            <ul id="subMenus">
+                      
+
+                            </ul>
+                        </li>
+                        <li><a href="#"> <img src="img/inMenusIcons/world.svg" width="" height=""
+                                    class="img-responsive" alt="" /> Trade Financial Settlement </a>
+                            <ul id="subMenus">
+                          
+
+                            </ul>
+                        </li>
+                       
+             
+                    </ul>
+                    <div id="leftArrow"><i class="material-icons"> keyboard_arrow_left </i></div>
+                    <div id="rightArrow"><i class="material-icons">keyboard_arrow_right</i></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div id="inBody">
+      <div class="col-md-12">
+        
+        <div class="row">
+          <div class="col-md-6">
+            <div class="panel portlet">
+              <div class="formBox portlet-title">
+                <div class="row">
+                  <div class="panel-heading formTitle">
+                    <h4> PURCHASE ORDER HEADER </h4>
+                    <div class="float-right"><span class="clickable"><i class="fa fa-angle-up" aria-hidden="true"></i></span> | <i class="material-icons fullscreen"> unfold_less </i> </div>
+                  </div>
+                  <div class="formTitleHover">
+                    <h4> PURCHASE ORDER HEADER <i class="material-icons rotetIcon"> unfold_less </i>
+                      <div class="float-right"><i class="material-icons fullscreen"> close </i></div>
+                    </h4>
+                  </div>
+                </div>
+                <div id="style-8" class="panel-body scrollbar">
+                  <div class="row force-overflow">
+                    <div class="col-md-6">
+                      <form>
+                        <div class="form-group row">
+                          <label class="col-sm-4 col-form-label">Supplier ID/Name <i class="red">*</i></label>
+                          <div class="col-sm-8"> <i class="material-icons iIcon"> info </i>
+                            <input type="text" class="form-control" id="" placeholder="Supplier ID/Name ">
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label class="col-sm-4 col-form-label">Supplier Name </label>
+                          <div class="col-sm-8 iHelp">
+                            <input type="text" class="form-control" id="" placeholder="Supplier Name ">
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label class="col-sm-4 col-form-label">PO Reference No </label>
+                          <div class="col-sm-8 iHelp">
+                            <input type="text" class="form-control" id="" placeholder="PO Reference No  ">
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label class="col-sm-4 col-form-label">PO Reference No A </label>
+                          <div class="col-sm-8 iHelp">
+                            <input type="text" class="form-control" id="" placeholder="PO Reference No A ">
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label class="col-sm-4 col-form-label">PO Reference No B </label>
+                          <div class="col-sm-8">
+                            <input type="text" class="form-control" id="" placeholder="PO Reference No B ">
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label class="col-sm-4 col-form-label">Receipt Date </label>
+                          <div class="col-sm-8">
+                            <input type="text" class="form-control" id="" placeholder="10/10/1995  ">
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                    <div class="col-md-6">
+                      <form>
+                        <div class="form-group row">
+                          <label class="col-sm-4 col-form-label">Receipt Type </label>
+                          <div class="col-sm-8">
+                            <input type="text" class="form-control" id="" placeholder="Receipt Type  ">
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label class="col-sm-4 col-form-label">Currency</label>
+                          <div class="col-sm-8">
+                            <select class="selectpicker" data-live-search="true">
+                              <option data-tokens=" ">Option 1</option>
+                              <option data-tokens=" ">Option 2</option>
+                              <option data-tokens=" ">Option 3</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label class="col-sm-4 col-form-label">PO Delivery Date<i class="red">*</i> </label>
+                          <div class="col-sm-8">
+                            <input type="text" class="form-control" id="" placeholder="PO Delivery Date">
+                          </div>
+                        </div>
+                        <div class="form-group row ">
+                          <label class="col-sm-4 col-form-label">Ship To Address </label>
+                          <div class="col-sm-8">
+                            <input type="text" class="form-control" id="" placeholder="Ship To Address">
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label class="col-sm-4 col-form-label">Terms of payments<i class="red">*</i> </label>
+                          <div class="col-sm-8">
+                            <select class="selectpicker" data-live-search="true">
+                              <option data-tokens=" ">Option 1</option>
+                              <option data-tokens=" ">Option 2</option>
+                              <option data-tokens=" ">Option 3</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label class="col-sm-4 col-form-label">Tax Group </label>
+                          <div class="col-sm-8">
+                            <select class="selectpicker" data-live-search="true">
+                              <option data-tokens=" ">Option 1</option>
+                              <option data-tokens=" ">Option 2</option>
+                              <option data-tokens=" ">Option 3</option>
+                            </select>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                    <div class="col-md-12 mt-3">
+                      <form>
+                        <div class="form-group row">
+                          <label class="col-sm-4 col-form-label"> </label>
+                          <div class="col-sm-8 text-right mb-3">
+                            <button class="btn btn-green"> SAVE </button>
+                            <button class="btn btn-white"> CLEAR </button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="panel portlet">
+              <div class="formBox portlet-title">
+                <div class="row">
+                  <div class="panel-heading formTitle">
+                    <h4> PURCHASE ORDER LINES </h4>
+                    <div class="float-right"><span class="clickable"><i class="fa fa-angle-up" aria-hidden="true"></i></span> | <i class="material-icons fullscreen"> unfold_less </i> </div>
+                  </div>
+                  <div class="formTitleHover">
+                    <h4> PURCHASE ORDER LINES <i class="material-icons rotetIcon"> unfold_less </i>
+                      <div class="float-right"><i class="material-icons fullscreen"> close </i></div>
+                    </h4>
+                  </div>
+                </div>
+                <div id="style-8" class="panel-body scrollbar">
+                  <div class="row force-overflow">
+                    <div class="col-md-6">
+                      <form>
+                        <div class="form-group row">
+                          <label class="col-sm-4 col-form-label">Product ID/Name </label>
+                          <div class="col-sm-8"> <i class="material-icons iIcon"> info </i>
+                            <input type="text" class="form-control" id="" placeholder="Product ID/Name">
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label class="col-sm-4 col-form-label">Product Name </label>
+                          <div class="col-sm-8">
+                            <input type="text" class="form-control" id="" placeholder="Product Name">
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label class="col-sm-4 col-form-label">UPC EAN Number </label>
+                          <div class="col-sm-8">
+                            <input type="text" class="form-control" id="" placeholder="UPC EAN Number">
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label class="col-sm-4 col-form-label">Receiving Unit </label>
+                          <div class="col-sm-8">
+                            <select class="selectpicker" data-live-search="true">
+                              <option data-tokens=" ">Option 1</option>
+                              <option data-tokens=" ">Option 2</option>
+                              <option data-tokens=" ">Option 3</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label class="col-sm-4 col-form-label">ETA</label>
+                          <div class="col-sm-8">
+                            <input type="text" class="form-control col-form-label-sm" id="" placeholder="mm/dd/yyyy">
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label class="col-sm-4 col-form-label">Unit Price </label>
+                          <div class="col-sm-8">
+                            <input type="text" class="form-control" id="" placeholder="Unit Price">
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label class="col-sm-4 col-form-label">Order Quantity <i class="red">*</i></label>
+                          <div class="col-sm-8">
+                            <input type="text" class="form-control" id="" placeholder="Order Quantity">
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label class="col-sm-4 col-form-label">Discount </label>
+                          <div class="col-sm-8">
+                            <input type="text" class="form-control" id="" placeholder="Discount">
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                    <div class="col-md-6">
+                      <form>
+                        <div class="form-group row">
+                          <label class="col-sm-4 col-form-label">Tax 1% </label>
+                          <div class="col-sm-8">
+                            <input type="text" class="form-control" id="" placeholder="Tax 1%">
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label class="col-sm-4 col-form-label">Tax 2% </label>
+                          <div class="col-sm-8">
+                            <input type="text" class="form-control" id="" placeholder="Tax 2%">
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label class="col-sm-4 col-form-label">Tax 3% </label>
+                          <div class="col-sm-8">
+                            <input type="text" class="form-control" id="" placeholder="Tax 3%">
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label class="col-sm-4 col-form-label">Tax 4% </label>
+                          <div class="col-sm-8">
+                            <input type="text" class="form-control" id="" placeholder="Tax 4%">
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label class="col-sm-4 col-form-label">Tax 5% </label>
+                          <div class="col-sm-8">
+                            <input type="text" class="form-control" id="" placeholder="Tax 5%">
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label class="col-sm-4 col-form-label">Amount </label>
+                          <div class="col-sm-8">
+                            <input type="text" class="form-control" id="" placeholder="Amount">
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label class="col-sm-4 col-form-label">Remarks </label>
+                          <div class="col-sm-8">
+                            <input type="text" class="form-control" id="" placeholder="Remarks">
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                    <div class="col-md-12 mt-3">
+                      <form>
+                        <div class="form-group row">
+                          <label class="col-sm-4 col-form-label"> </label>
+                          <div class="col-sm-8 text-right mb-3">
+                            <button class="btn btn-green"> SAVE </button>
+                            <button class="btn btn-white"> CLEAR </button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="panel portlet">
+              <div class="formBox portlet-title">
+                <div class="row">
+                  <div class="panel-heading formTitle">
+                    <h4> EDIT SHIPPING DETAILS </h4>
+                    <div class="float-right"><span class="clickable"><i class="fa fa-angle-up" aria-hidden="true"></i></span> | <i class="material-icons fullscreen"> unfold_less </i> </div>
+                  </div>
+                  <div class="formTitleHover">
+                    <h4> EDIT SHIPPING DETAILS <i class="material-icons rotetIcon"> unfold_less </i>
+                      <div class="float-right"><i class="material-icons fullscreen"> close </i></div>
+                    </h4>
+                  </div>
+                </div>
+                <div id="style-8" class="panel-body scrollbar">
+                  <div class="row force-overflow">
+                    <div class="col-md-6">
+                      <form>
+                        <div class="form-group row">
+                          <label class="col-sm-4 col-form-label"> Contact Name </label>
+                          <div class="col-sm-8">
+                            <input type="text" class="form-control" id="" placeholder="Contact Name">
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label class="col-sm-4 col-form-label">Contact No </label>
+                          <div class="col-sm-8">
+                            <input type="text" class="form-control" id="" placeholder="Contact No">
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label class="col-sm-4 col-form-label">Email </label>
+                          <div class="col-sm-8">
+                            <input type="text" class="form-control" id="" placeholder="Email">
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label class="col-sm-4 col-form-label">Address </label>
+                          <div class="col-sm-8">
+                            <input type="text" class="form-control" id="" placeholder="Address">
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label class="col-sm-4 col-form-label">Country </label>
+                          <div class="col-sm-8">
+                            <select class="selectpicker" data-live-search="true">
+                              <option data-tokens=" ">Option 1</option>
+                              <option data-tokens=" ">Option 2</option>
+                              <option data-tokens=" ">Option 3</option>
+                            </select>
+                          </div>
+                        </div>
+                        <p class="ml-3 "><a href="" class="red "><u>Edit More shipping details</u></a></p>
+                      </form>
+                    </div>
+                    <div class="col-md-6">
+                      <form>
+                        <div class="form-group row">
+                          <label class="col-sm-4 col-form-label">Country </label>
+                          <div class="col-sm-8">
+                            <input type="text" class="form-control" id="" placeholder="Country">
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label class="col-sm-4 col-form-label">State </label>
+                          <div class="col-sm-8">
+                            <input type="text" class="form-control" id="" placeholder="State">
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label class="col-sm-4 col-form-label">City </label>
+                          <div class="col-sm-8">
+                            <input type="text" class="form-control" id="" placeholder="City">
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label class="col-sm-4 col-form-label">PIN </label>
+                          <div class="col-sm-8">
+                            <input type="text" class="form-control" id="" placeholder="PIN">
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                    <div class="col-md-12 mt-3">
+                      <form>
+                        <div class="form-group row">
+                          <label class="col-sm-4 col-form-label"> </label>
+                          <div class="col-sm-8  mb-3">
+                            <button class="btn btn-green"> Update </button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="panel portlet">
+              <div class="formBox portlet-title">
+                <div class="row">
+                  <div class="panel-heading formTitle">
+                    <h4>EDIT SUPPILER DETAILS </h4>
+                    <div class="float-right"><span class="clickable"><i class="fa fa-angle-up" aria-hidden="true"></i></span> | <i class="material-icons fullscreen"> unfold_less </i> </div>
+                  </div>
+                  <div class="formTitleHover">
+                    <h4> EDIT SUPPILER DETAILS <i class="material-icons rotetIcon"> unfold_less </i>
+                      <div class="float-right"><i class="material-icons fullscreen"> close </i></div>
+                    </h4>
+                  </div>
+                </div>
+                <div id="style-8" class="panel-body scrollbar">
+                  <div class="row force-overflow">
+                    <div class="col-md-6">
+                      <form>
+                        <div class="form-group row">
+                          <label class="col-sm-4 col-form-label">Supplier ID </label>
+                          <div class="col-sm-8">
+                            <input type="text" class="form-control" id="" placeholder="Supplier ID">
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label class="col-sm-4 col-form-label">Supplier Name </label>
+                          <div class="col-sm-8">
+                            <input type="text" class="form-control" id="" placeholder="Supplier Name">
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label class="col-sm-4 col-form-label">Supplier Type </label>
+                          <div class="col-sm-8">
+                            <select class="selectpicker" data-live-search="true">
+                              <option data-tokens=" ">Option 1</option>
+                              <option data-tokens=" ">Option 2</option>
+                              <option data-tokens=" ">Option 3</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label class="col-sm-4 col-form-label">Email ID </label>
+                          <div class="col-sm-8">
+                            <input type="text" class="form-control" id="" placeholder="Email ID">
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label class="col-sm-4 col-form-label">Country </label>
+                          <div class="col-sm-8">
+                            <select class="selectpicker" data-live-search="true">
+                              <option data-tokens=" ">Option 1</option>
+                              <option data-tokens=" ">Option 2</option>
+                              <option data-tokens=" ">Option 3</option>
+                            </select>
+                          </div>
+                        </div>
+                        <p class="ml-3 "><a href="" class="red "><u>Edit More Suppiler details</u></a></p>
+                      </form>
+                    </div>
+                    <div class="col-md-6">
+                      <form>
+                        <div class="form-group row">
+                          <label class="col-sm-4 col-form-label">State </label>
+                          <div class="col-sm-8">
+                            <input type="text" class="form-control" id="" placeholder="State">
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label class="col-sm-4 col-form-label">City </label>
+                          <div class="col-sm-8">
+                            <input type="text" class="form-control" id="" placeholder="Place holder text">
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label class="col-sm-4 col-form-label">SPOC Name </label>
+                          <div class="col-sm-8">
+                            <input type="text" class="form-control" id="" placeholder="SPOC Name">
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label class="col-sm-4 col-form-label">SPOC Number </label>
+                          <div class="col-sm-8">
+                            <input type="text" class="form-control" id="" placeholder="SPOC Number">
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label class="col-sm-4 col-form-label">SPOC Email </label>
+                          <div class="col-sm-8">
+                            <input type="text" class="form-control" id="" placeholder="SPOC Email">
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                    <div class="col-md-12 mt-3">
+                      <form>
+                        <div class="form-group row">
+                          <label class="col-sm-4 col-form-label"> </label>
+                          <div class="col-sm-8  mb-3">
+                            <button class="btn btn-green"> Update </button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="panel portlet">
+              <div class="formBox portlet-title">
+                <div class="row">
+                  <div class="panel-heading formTitle">
+                    <h4>EDIT PRODUCT DETAILS </h4>
+                    <div class="float-right"><span class="clickable"><i class="fa fa-angle-up" aria-hidden="true"></i></span> | <i class="material-icons fullscreen"> unfold_less </i> </div>
+                  </div>
+                  <div class="formTitleHover">
+                    <h4> EDIT PRODUCT DETAILS <i class="material-icons rotetIcon"> unfold_less </i>
+                      <div class="float-right"><i class="material-icons fullscreen"> close </i></div>
+                    </h4>
+                  </div>
+                </div>
+                <div id="style-8" class="panel-body scrollbar">
+                  <div class="row force-overflow">
+                    <div class="col-md-6">
+                      <form>
+                        <div class="form-group row">
+                          <label class="col-sm-4 col-form-label">Product ID </label>
+                          <div class="col-sm-8">
+                            <input type="text" class="form-control" id="" placeholder="Product ID">
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label class="col-sm-4 col-form-label">Product Name </label>
+                          <div class="col-sm-8">
+                            <input type="text" class="form-control" id="" placeholder="Product Name">
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label class="col-sm-4 col-form-label">Product Category </label>
+                          <div class="col-sm-8">
+                            <select class="selectpicker" data-live-search="true">
+                              <option data-tokens=" ">Option 1</option>
+                              <option data-tokens=" ">Option 2</option>
+                              <option data-tokens=" ">Option 3</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label class="col-sm-4 col-form-label">Product Type</label>
+                          <div class="col-sm-8">
+                            <select class="selectpicker" data-live-search="true">
+                              <option data-tokens=" ">Option 1</option>
+                              <option data-tokens=" ">Option 2</option>
+                              <option data-tokens=" ">Option 3</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label class="col-sm-4 col-form-label">UPC EAN Number </label>
+                          <div class="col-sm-8">
+                            <input type="text" class="form-control" id="" placeholder="UPC EAN Number">
+                          </div>
+                        </div>
+                        <p class="ml-3"><a href="" class="red"><u>Edit More Product details</u></a></p>
+                      </form>
+                    </div>
+                    <div class="col-md-6">
+                      <form>
+                        <div class="form-group row">
+                          <label class="col-sm-4 col-form-label">Inventory Unit </label>
+                          <div class="col-sm-8">
+                            <select class="selectpicker" data-live-search="true">
+                              <option data-tokens=" ">Option 1</option>
+                              <option data-tokens=" ">Option 2</option>
+                              <option data-tokens=" ">Option 3</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label class="col-sm-4 col-form-label">Receiving Unit </label>
+                          <div class="col-sm-8">
+                            <select class="selectpicker" data-live-search="true">
+                              <option data-tokens=" ">Option 1</option>
+                              <option data-tokens=" ">Option 2</option>
+                              <option data-tokens=" ">Option 3</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label class="col-sm-4 col-form-label">Picking Unit </label>
+                          <div class="col-sm-8">
+                            <select class="selectpicker" data-live-search="true">
+                              <option data-tokens=" ">Option 1</option>
+                              <option data-tokens=" ">Option 2</option>
+                              <option data-tokens=" ">Option 3</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label class="col-sm-4 col-form-label">Shipment Unit </label>
+                          <div class="col-sm-8">
+                            <select class="selectpicker" data-live-search="true">
+                              <option data-tokens=" ">Option 1</option>
+                              <option data-tokens=" ">Option 2</option>
+                              <option data-tokens=" ">Option 3</option>
+                            </select>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                    <div class="col-md-12 mt-3">
+                      <form>
+                        <div class="form-group row">
+                          <label class="col-sm-4 col-form-label"> </label>
+                          <div class="col-sm-8  mb-3">
+                            <button class="btn btn-green"> Update </button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="panel portlet">
+              <div class="formBox portlet-title">
+                <div class="row">
+                  <div class="panel-heading formTitle">
+                    <h4> RECENT HISTORY </h4>
+                    <div class="float-right"><span class="clickable"><i class="fa fa-angle-up" aria-hidden="true"></i></span> | <i class="material-icons fullscreen"> unfold_less </i> </div>
+                  </div>
+                  <div class="formTitleHover">
+                    <h4> RECENT HISTORY <i class="material-icons rotetIcon"> unfold_less </i>
+                      <div class="float-right"><i class="material-icons fullscreen"> close </i></div>
+                    </h4>
+                  </div>
+                </div>
+                <div id="style-8" class="panel-body scrollbar">
+                  <div class="row force-overflow">
+                    <div class="col-md-12">
+                      <table class="table table-bordered">
+                        <thead>
+                          <tr>
+                            <th scope="col">S.No</th>
+                            <th scope="col">Product Id/ Name</th>
+                            <th scope="col">Order Quantity</th>
+                            <th scope="col"> Receipt Date</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>3334</td>
+                            <td>533</td>
+                            <td>3/11/19</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>3334</td>
+                            <td>pcs</td>
+                            <td>3/11/19</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td>3334</td>
+                            <td>533</td>
+                            <td>3/11/19</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">4</th>
+                            <td>3334</td>
+                            <td>pcs</td>
+                            <td>3/11/19</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="wmsDataTables">
+              <table  id="example" class="table table-striped">
+                <thead>
+                  <tr>
+                    <th scope="col">S.No</th>
+                    <th scope="col">WMPO Line Number </th>
+                    <th scope="col"> Product ID</th>
+                    <th scope="col">Product Name</th>
+                    <th scope="col">Supplier ID/Name</th>
+                    <th scope="col">Order Quantity</th>
+                    <th scope="col">Unit Price</th>
+                    <th scope="col">Discount</th>
+                    <th scope="col">Tax 1%</th>
+                    <th scope="col">Tax 2%</th>
+                    <th scope="col">Tax 3%</th>
+                    <th scope="col">Tax 4%</th>
+                    <th scope="col">Tax 5%</th>
+                    <th scope="col">Amount</th>
+                    <th scope="col">Remarks</th>
+                    <th scope="col">Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>3334</td>
+                    <td>533</td>
+                    <td>pcs</td>
+                    <td>3/11/19</td>
+                    <td>3/11/19</td>
+                    <td>pcs</td>
+                    <td>1%</td>
+                    <td>589</td>
+                    <td>896</td>
+                    <td>1896</td>
+                    <td>8896</td>
+                    <td>589</td>
+                    <td>896</td>
+                    <td>1896</td>
+                    <td ><span _ngcontent-lty-c40="" class="btn btn-pink btn-sm"><i _ngcontent-lty-c40="" class="fa fa-pencil btn-sm"></i><i _ngcontent-lty-c40="" class="fa fa-trash btn-blue"></i></span></td>
+                  </tr>
+                </tbody>
+              </table>
+              <div class="row">
+                <div class="col-md-12 table-text">
+                  <div class="form-group row">
+                    <label class="col-sm-3 col-form-label">Total Amount </label>
+                    <div class="col-sm-2">
+                      <input type="text" class="form-control" id="" placeholder="Total amount
+                                                                              ">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="TermsAndConditions row">
+            <div class="col-md-9">
+              <h5> Terms and conditions </h5>
+              <p> Help protect your website and its users with clear and fair website terms and conditions. These terms and conditions for a website set out key issues such as acceptable use, privacy, cookies, registration and passwords, intellectual property, links to other sites, termination and disclaimers of responsibility. Terms and conditions are used and necessary to protect a website owner from liability of a user relying on the information or the goods provided from the site then suffering a loss.</p>
+            </div>
+            <div class="col-md-3 text-center ">
+              <button class="btn btn-green"> SAVE </button>
+              <button class="btn btn-white"> RAISE PO </button>
+            </div>
+          </div>
+          <div id="wmsQuickLinks" class="mtMns22">
+            <div class="row m-auto">
+              <div class="col-md-2">
+                <h4> <i class="material-icons">insert_link</i> <span class="align-top"> Quick Links </span></h4>
+              </div>
+              <div class="col-md-10">
+                <ul>
+                  <li><a href="">Master Data</a></li>
+                  <li><a href="">Reports</a></li>
+                  <li><a href="">Dashboard</a></li>
+                  <li><a href="">Configurations</a></li>
+                  <li><a href="">Accounting</a></li>
+                  <li><a href="" class="lastChild">Value Added Services</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+    
+    
+    <!-- Optional JavaScript --> 
+    <!-- jQuery first, then Popper.js, then Bootstrap JS --> 
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" ></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" ></script> 
+    <script src="js/bootstrap.min.js" ></script> 
+    <script src="js/app.min.js" ></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js" ></script> 
+    <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js" ></script> 
+    <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js" ></script> 
+    
+    <script>
+        var view = $("#tslshow");
+    var move = "100px";
+    var sliderLimit = -750
+    
+    $("#rightArrow").click(function(){
+        
+        var currentPosition = parseInt(view.css("left"));
+        if (currentPosition >= sliderLimit) view.stop(false,true).animate({left:"-="+move},{ duration: 400})
+    
+    });
+    
+    $("#leftArrow").click(function(){
+    
+        var currentPosition = parseInt(view.css("left"));
+        if (currentPosition < 0) view.stop(false,true).animate({left:"+="+move},{ duration: 400})
+    
+    });
+    </script>
+    
+    
+    <script>
+                $(document).ready(function() {
+                $('#example').DataTable();
+            } );
+            </script> 
+    <script>
+                    $(document).on('click', '.panel-heading span.clickable', function(e){
+                var $this = $(this);
+                if(!$this.hasClass('panel-collapsed')) {
+                    $this.parents('.panel').find('.panel-body').slideUp();
+                    $this.addClass('panel-collapsed');
+                    $this.find('i').removeClass('fa fa-angle-up').addClass('fa fa-angle-down');
+                    
+                } else {
+                    $this.parents('.panel').find('.panel-body').slideDown();
+                    $this.removeClass('panel-collapsed');
+                    $this.find('i').removeClass('fa fa-angle-down').addClass('fa fa-angle-up');
+                    
+                }
+            })
+                </script> 
+    <script>
+                    $(function() {
+                    $('.pop').on('click', function() {
+                        $('.imagepreview').attr('src', $(this).find('img').attr('src'));
+                        $('#imagemodal').modal('show');   
+                    });		
+            });
+                </script>
+                
+                
+    </body>
+    </html>
